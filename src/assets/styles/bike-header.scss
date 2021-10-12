@@ -1,0 +1,30 @@
+/deep/ .btn-lg,
+.btn-group-lg > .btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+/deep/ .btn-light {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: rgb(28, 158, 209);
+  &:hover {
+    background-color: #49b4df;
+    color: #ffffff;
+  }
+}
+
+.bike-style {
+  color: #ffffff;
+}
+
+.header {
+  color: #ffffff;
+  font-weight: 800;
+}
+.bike-icon {
+  width: 50px;
+  height: 50px;
+}

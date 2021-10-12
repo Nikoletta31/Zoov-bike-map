@@ -1,0 +1,66 @@
+@import "@/assets/styles/colors.scss";
+
+.grey-line {
+  margin-top: 10px;
+  border-bottom: 1px solid $blue-primary;
+  opacity: 0.2;
+}
+
+i {
+  color: $blue-primary;
+}
+
+.map-style {
+  border: 5px solid #ffffff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+/deep/ .btn-sm,
+.btn-group-sm > .btn {
+  padding: 2px 10px;
+  font-size: 11px;
+  border-radius: 15px;
+}
+
+.level-text {
+  font-weight: 800;
+  margin-right: 10px;
+}
+
+.bike-status {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.flex-battery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.battery {
+  border-style: solid;
+  border-width: 3px;
+  height: 15px;
+  width: 25px;
+  border-radius: 5px;
+  padding: 1px;
+  margin-right: 10px;
+}
+
+.battery-level {
+  height: 100%;
+}
+
+.serial-num {
+  border: 2px solid $blue-primary;
+  padding: 2px 5px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-left: 30px;
+}

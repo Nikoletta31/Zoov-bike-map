@@ -1,0 +1,11 @@
+@import "@/assets/styles/colors.scss";
+
+/deep/ .btn-primary {
+  background-color: $blue-primary;
+  border-color: $blue-primary;
+}
+
+/deep/ .btn-danger {
+  background-color: $red-danger;
+  border-color: $red-danger;
+}
